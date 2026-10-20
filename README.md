@@ -10,7 +10,17 @@ Beyond firmware extraction, the suite includes several advanced utilities for in
 
 This software is intended for educational, research, preservation, and hardware ownership purposes. Users should only dump and analyze hardware that they legally own and are authorized to inspect.
 
+Identity Extraction feature:
 
+Extracts the controller's cryptographic identity from a firmware dump.
+
+Generated Files
+
+File Description
+key.pem Controller RSA private key
+pub.pem Corresponding public key
+serial.txt Controller serial number
+sig.bin CA signature blob
 
 
 
