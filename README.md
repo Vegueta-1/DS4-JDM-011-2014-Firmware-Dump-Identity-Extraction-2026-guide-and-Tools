@@ -17,9 +17,13 @@ Extracts the controller's cryptographic identity from a firmware dump.
 Generated Files
 
 File Description
+
 key.pem Controller RSA private key
+
 pub.pem Corresponding public key
+
 serial.txt Controller serial number
+
 sig.bin CA signature blob
 
 
